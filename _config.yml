@@ -23,7 +23,7 @@ description: 불꽃심장의 기술 학습 및 트러블 슈팅 기록 공간입
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: 'https://o-Fireheart-o.github.io'
+url: "https://o-Fireheart-o.github.io"
 
 github:
   username: github_username # change to your GitHub username
