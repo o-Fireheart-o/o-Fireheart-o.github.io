@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/server.py 코드 구성.md",
+                "file": "_posts/2026-04-28-config 코드 구성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "server.py 코드 구성"
+              "title": "2026-04-28-config 코드 구성"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/server.py 코드 구성.md",
+                "file": "_posts/2026-04-28-config 코드 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "server.py 코드 구성 의 백링크"
+              "title": "2026-04-28-config 코드 구성 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/server.py 코드 구성.md",
+                "file": "_posts/2026-04-28-config 코드 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "server.py 코드 구성 의 나가는 링크"
+              "title": "2026-04-28-config 코드 구성 의 나가는 링크"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/server.py 코드 구성.md",
+                "file": "_posts/2026-04-28-config 코드 구성.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "server.py 코드 구성 의 개요"
+              "title": "2026-04-28-config 코드 구성 의 개요"
             }
           }
         ]
@@ -180,9 +180,14 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "bases:새 베이스 생성하기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "69a21b0a1c7f38c1",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "_posts/2026-04-28-server 코드 구성.md",
+    "_posts/2026-04-28-config 코드 구성.md",
+    "_posts/2026-04-27-aps-python-study.md"
+  ]
 }
