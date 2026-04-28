@@ -1,0 +1,67 @@
+---
+title: "server.py 코드 구성"
+date: "2026-04-28 23:58 +0900"
+categories: [Category]
+tags: [tag]
+layout: post
+---
+## 사용된 프레임워크
+`fastapi`
+
+## 코드구성
+```python
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from config import PORT
+import uvicorn 
+
+# FastAPI 어플리케이션 인스턴스 생성
+app = FastAPI()
+
+# 루트 경로에 wwwroot 폴더를 정적 파일로 서빙 (HTML 모드)
+app.mount("/", StaticFiles(directory="wwwroot", html=True), name="static")
+
+# 직접 실행 시 개발 서버 시작
+if __name__ == "__main__":
+	uvicorn.run("server:app", host="0.0.0.0", port=PORT, reload=True)
+```
+
+## 서버 실행하기
+터미널에 `python server.py` 입력
+
+---
+## 💡추가 내용
+### uvicorn.run에서 reload의 의미
+- True일 때 코드가 변경되었을 때 서버를 자동으로 재시작
+
+| 구분    | reload = True | reload = False |
+| ----- | ------------- | -------------- |
+| 개발 환경 | ✅ 편리함         | ❌ 불편함          |
+| 운영 환경 | ❌ 위험          | ✅ 안정적          |
+### 클래스와 함수 차이
+- 함수 : 단순히 작업을 수행하는 코드 묶음임
+```Python
+  # 함수 예시
+  def add(a, b):
+    return a + b
+
+add(1, 2)  # → 3
+```
+- 클래스 : 데이터(변수)와 기능(함수)를 하나로 묶은 설계도
+```python
+# 클래스 예시
+class Dog:
+    def __init__(self, name):
+        self.name = name  # 데이터
+    
+    def bark(self):       # 기능
+        print(f"{self.name}: 멍멍!")
+
+my_dog = Dog("초코")
+my_dog.bark()  # → 초코: 멍멍!
+```
+### app.mount()
+- 정의 : 특정 경로에 별도 앱(또는 정적 파일)을 붙이는 기능
+- 브라우저에서 주소를 입력하면 `wwwroot`폴더 안의 경로로 매핑됨
+- "/"에 마운트 했기 때문에 사이트 전체의 기준점을 wwwroot 폴더가 됨
+- "/static"에 마운트했다면 `https://mysite.com/static/a.jpg → wwwroot/a.jpg` 이런식으로 /static을 거쳐야 함
