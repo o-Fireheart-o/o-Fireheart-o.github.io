@@ -1,0 +1,18 @@
+@font-face{
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.markdown-preview-section,
+.markdown-source-view.mod-cm6 .cm-sizer {
+    font-family: 'HBIOS-SYS';
+}
+
+body{
+  --font-default: 'HBIOS-SYS', sans-serif;
+  font-family: var(--font-default) !important;
+  --text-normal:green;
+}

@@ -1,4 +1,7 @@
 {
   "theme": "obsidian",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "font"
+  ]
 }
