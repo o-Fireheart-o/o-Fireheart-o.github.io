@@ -1,4 +1,7 @@
 {
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "attachmentFolderPath": "attatchments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts"
 }

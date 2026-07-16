@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"05805561c1380f89","type":"group","x":-220,"y":-1920,"width":1200,"height":960,"label":"User PC"},
+		{"id":"6024bde5c2222a2f","type":"group","x":-140,"y":-1420,"width":1023,"height":440,"color":"2","label":"Electron App"},
+		{"id":"4a71791fa31dac1a","type":"group","x":-80,"y":-2340,"width":285,"height":160,"color":"3","label":"APS Forma"},
+		{"id":"204a07bc7d82cbd0","type":"text","text":"# APS Webhook\nForma Event","x":-300,"y":-240,"width":240,"height":100},
+		{"id":"462c031be141e31f","type":"text","text":"# Main Process\nelectron/main/js\nBrowserWindow 관리 IPC 이벤트 허브","x":60,"y":-85,"width":250,"height":155},
+		{"id":"2b670a68f0a66fd3","type":"text","text":"# APS Webhook\n이슈, 파일, 검토 이벤트 발생","x":-60,"y":-2320,"width":237,"height":109},
+		{"id":"0a36edfcca01ede7","type":"text","text":"# FastAPI 백엔드\nwebhook·SSE·REST","x":-60,"y":-1860,"width":250,"height":96},
+		{"id":"bc95767bd65b6499","type":"text","text":"# System Tray\n트레이 아이콘, 뱃지","x":504,"y":-1620,"width":250,"height":96},
+		{"id":"c437511e66d6b873","type":"text","text":"# Local Server (임시)\n서버","x":-60,"y":-1668,"width":305,"height":96},
+		{"id":"12e2adbdb1ea3a81","type":"text","text":"# AWS EC2\n서버","x":300,"y":-1850,"width":250,"height":77},
+		{"id":"39158a2b71693f9d","type":"text","text":"# FastAPI\n백엔드 서버","x":-305,"y":-55,"width":250,"height":95},
+		{"id":"a9d49b7a4ae9d420","type":"text","text":"# System Tray","x":85,"y":260,"width":200,"height":60},
+		{"id":"a8559b4acc05493a","type":"text","text":"# Autodesk Forma\nAPS Webhook","x":-325,"y":-440,"width":235,"height":100},
+		{"id":"f15d8882c24500b9","type":"text","text":"# Main Window\n프로젝트 사이드바 알림 목록","x":498,"y":-265,"width":262,"height":105},
+		{"id":"574d370fb8de00e5","type":"text","text":"# Detail Window\n알림 상세 팝업\n별도 BrowserWindow","x":498,"y":120,"width":262,"height":120},
+		{"id":"535b8d297171272a","type":"text","text":"IPC(Inter-Process Communication) - 프로세스 간 메세지 통신","x":123,"y":-1360,"width":494,"height":62},
+		{"id":"1d39db924198f4d5","type":"text","text":"# Main Process\nElectron/main.js","x":245,"y":-1100,"width":259,"height":83},
+		{"id":"c106e9de5a5534e9","type":"text","text":"# Window Notification\n알림 메시지","x":-120,"y":-1260,"width":385,"height":108},
+		{"id":"1748816a559b3c73","type":"text","text":"# Main Window\n프로젝트 알림 목록","x":320,"y":-1260,"width":246,"height":108},
+		{"id":"32fdd6615f50a91e","type":"text","text":"# Detail Window\n알림 상세 팝업","x":617,"y":-1260,"width":246,"height":108}
+	],
+	"edges":[
+		{"id":"a8b133ceaba6c06d","fromNode":"204a07bc7d82cbd0","fromSide":"bottom","toNode":"39158a2b71693f9d","toSide":"top"},
+		{"id":"89fd957c8428bcc3","fromNode":"39158a2b71693f9d","fromSide":"right","toNode":"462c031be141e31f","toSide":"left"},
+		{"id":"948ad0ee5b9afb64","fromNode":"a9d49b7a4ae9d420","fromSide":"top","toNode":"462c031be141e31f","toSide":"bottom"},
+		{"id":"4eef921d57e93af1","fromNode":"462c031be141e31f","fromSide":"right","toNode":"f15d8882c24500b9","toSide":"left"},
+		{"id":"6b73143d282c3548","fromNode":"462c031be141e31f","fromSide":"right","toNode":"574d370fb8de00e5","toSide":"left"},
+		{"id":"b75d4849459235a0","fromNode":"bc95767bd65b6499","fromSide":"bottom","toNode":"535b8d297171272a","toSide":"top"},
+		{"id":"5e9d763b466f5778","fromNode":"4a71791fa31dac1a","fromSide":"bottom","toNode":"0a36edfcca01ede7","toSide":"top","label":"Webhook POST"},
+		{"id":"3bc017e3fc81e4dc","fromNode":"c437511e66d6b873","fromSide":"bottom","toNode":"535b8d297171272a","toSide":"top"},
+		{"id":"64870dffe67db47f","fromNode":"0a36edfcca01ede7","fromSide":"bottom","toNode":"c437511e66d6b873","toSide":"top"},
+		{"id":"e46a93baa4279b7b","fromNode":"0a36edfcca01ede7","fromSide":"right","toNode":"12e2adbdb1ea3a81","toSide":"left","color":"1"},
+		{"id":"ef1577128d8444ae","fromNode":"12e2adbdb1ea3a81","fromSide":"bottom","toNode":"535b8d297171272a","toSide":"top","color":"1"}
+	]
+}
