@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/HTML, CSS, JavaScript 기초/2026-07-17-02_HTML 기본 구조.md",
+                "file": "_posts/HTML, CSS, JavaScript 기초/2026-07-17-00_필수 Extentions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-17-02_HTML 기본 구조"
+              "title": "2026-07-17-00_필수 Extentions"
             }
           }
         ]
@@ -187,11 +187,12 @@
   },
   "active": "b53f230f6663d9ea",
   "lastOpenFiles": [
-    "_posts/HTML, CSS, JavaScript 기초/2026-07-17-01_HTML 기본 문법.md",
+    "attatchments/Pasted.md",
     "_posts/HTML, CSS, JavaScript 기초/2026-07-17-00_필수 Extentions.md",
+    "_posts/HTML, CSS, JavaScript 기초/2026-07-17-02_HTML 기본 구조.md",
+    "_posts/HTML, CSS, JavaScript 기초/2026-07-17-01_HTML 기본 문법.md",
     "_posts/Autodesk Platform Service/2026-04-27-aps-python-study.md",
     "_posts/HTML, CSS, JavaScript 기초/2026-07-17-03_텍스트 작성하기.md",
-    "_posts/HTML, CSS, JavaScript 기초/2026-07-17-02_HTML 기본 구조.md",
     "_posts/Autodesk Platform Service/2026-04-28-config 코드 구성.md",
     "_posts/Autodesk_Forma_notification/백엔드/00. Local 테스트 서버 구성.md",
     "_posts/Autodesk_Forma_notification/architeture diagram.canvas",

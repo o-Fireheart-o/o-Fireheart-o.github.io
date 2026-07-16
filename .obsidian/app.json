@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "attachmentFolderPath": "attatchments",
   "newFileLocation": "folder",
-  "newFileFolderPath": "_posts"
+  "newFileFolderPath": "_posts",
+  "useMarkdownLinks": true
 }
